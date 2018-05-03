@@ -1,0 +1,35 @@
+var logo = document.querySelector("#hplogo");
+	setInterval(function(){
+		logo.width+=5;
+	}, 100)
+
+
+
+
+var name = "Rusty";
+var num = 43;
+
+"hello there " + name + ". Happy " + num + "rd birthday!"
+
+//alert
+
+//prompt
+
+//console.log
+
+var userName = prompt("What is your name?");
+
+//creates prompt for user to input info
+
+! = flips answer (so if true, becomes false)
+
+var str = ""	// false
+var msg = "haha!"	// true
+var isFunny = "false"	// true
+
+!((str || msg) && isFunny)  // false
+
+// str || msg = true due to msg
+// isFunny = true due to "false" 
+
+!!((str || msg) && isFunny)  // true

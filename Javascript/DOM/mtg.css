@@ -1,0 +1,11 @@
+#tab1 {
+  width: 60%;
+}
+
+#tab2 {
+  width: 40%;
+}
+
+.winner {
+  color: green;
+}
